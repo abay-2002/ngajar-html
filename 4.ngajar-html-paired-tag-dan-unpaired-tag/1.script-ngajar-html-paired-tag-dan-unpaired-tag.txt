@@ -1,0 +1,84 @@
+Daftar isi: 
+== Paired Tag ==
+-Apa itu paired tag.
+-Visualisasi paired tag.
+-Praktek kode paired tag.
+
+== Unpaired Tag ==
+-Apa itu unpaired tag.
+-Visualisasi unpaired tag.
+-Praktek kode unpaired tag.
+
+
+=== Paired Tag ===
+== Apa itu Paired Tag? ==
+Tag HTML terbagi menjadi dua kelompok yaitu Paired Tag dan Unpaired Tag 
+*Paired Tag adalah Tag HTML yang memiliki pasangan, 
+Tag yang memiliki pasangan adalah ketika sebuah Tag mempunyai Tag pembuka dan Tag penutup.
+contohnya tag h1 dimana tag h1 mempunyai tag pembuka <h1>Hello world</h1> dan tag penutup
+
+== Visualisasi Paired Tag ==
+<h1>Hello World</h1>
+
+== Praktek kode paired Tag ==
+html,	Setiap file HTML wajib dibungkus dengan tag HTML
+
+head, 	Tag head adalah berisi metadata.
+
+title,	Tag title mendefinisikan judul/title dari dokumen HTML, dan title harusnya hanya text.
+
+body, 	Tag body berisi konten dokumen HTML seperti paragraph tag P, hyperlinks tag a, image tag img
+
+nav,	Tag nav mendefinisikan link navigasi.
+
+h1-h6, 	Tag h1-h6 mendefinisikan heading.
+
+ul, 	Tag ul mendefinisikan unurdored list dimana list tidak berurutan.
+
+ol, 	Tag ol mendefinisikan ordored list dimana list berurutan.
+
+li, 	Tag li mendefinisikan item dari list.
+
+a, 	Tag a mendefinisikan hyperlink, yang berguna untuk menglink/menghubungkan halaman/page satu ke page lainnya.
+
+p, 	Tag P mendefinisikan paragraph.
+
+div, 	Tag div mendefinisikan division atau section pada document HTML secara display block.
+
+span	Tag span digunakan untuk menandai bagian dari teks, atau document.
+
+footer, Tag footer mendefinisikan footer dari sebuah dokumen atau section.
+footer biasanya berisi:
+*informasi author.
+*informasi copyright.
+*informasi contact.
+*document yang relate.
+
+
+=== Unpaired Tag ===
+== Apa itu Unpaired Tag? ==
+*Unpaired Tag adalah Tag HTML yang TIDAK memiliki pasangan, dimana Tag ini tidak perlu tag penutup 
+contohnya tag <img src='../img/cat.jpg'>
+
+== Visualisasi Unpaired Tag ==
+<img src="cat.jpg">	
+<br>			
+
+== Praktek kode Unpaired Tag ==
+<img src="cat.jpg">, 	Tag img digunakan untuk meng-embed file img didalam halaman HTML.
+br, 			Tag br memberikan single line break.
+input,
+
+== Rangkuman Belajar ==
+1.Memahami konsep dari Paired Tag pada HTML.
+2.Memahami konsep dari Unpaired Tag pada HTML.
+3.Memahami bagaimana cara menggunakan Paired Tag pada HTML.
+4.Memahami bagaimana cara menggunakan Unpaired Tag pada HMTML.
+
+
+
+
+
+
+
+

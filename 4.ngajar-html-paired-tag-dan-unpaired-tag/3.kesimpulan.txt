@@ -1,0 +1,21 @@
+Kesimpulan
+
+==1.Tag HTML==
+Tag HTML terbagi menjadi dua kelompok yaitu Paired Tag dan Unpaired Tag 
+
+==2.HTML Documents==
+*Deklarasi <!DOCTYPE>
+**Semua documents HTML harus diawali dengan tipe deklarasi document: <!DOCTYPE>
+**Deklarasi <!DOCTYPE> mewakili tipe document, dan membantu web untuk menampilkan halaman web dengan benar.
+**Deklarasi <!DOCTYPE> tidak case sensitive
+**Deklarasi <!DOCTYPE> untuk HTML5 adalah <!DOCTYPE html>
+*Tag <html>dan</html>
+document HTML sendiri dibuka dengan tag <html> pembuka dan ditutup dengan tag </html> penutup.
+*Tag <body>dan</body> 
+bagian yang terlihat pada WEB dari document HTML adalah antara Tag pembuka <body> dan Tag penutup </body>.
+
+==3.Apa itu elements HTML==
+Elements HTML adalah semua isi, dari tag pembuka sampai tag penutup.
+
+==4.HTML attribute dan value==
+HTML attributes menyediakan informasi tambahan mengenai element HTML.
