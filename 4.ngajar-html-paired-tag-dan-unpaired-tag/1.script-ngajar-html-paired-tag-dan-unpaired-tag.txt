@@ -1,58 +1,134 @@
-Daftar isi: 
-== Paired Tag ==
+Hallo semuanya selamat datang
+divideo kali ini kita akan belajar tentang apa itu Paired Tag dan Unpaired tag pada HTML.
+serta mengenal tag-tag maupun elements yang perlu kita ketahui pada HTML.
+setelah pada video sebelumnya kita sudah membahas dan mengetahui apa itu tag dan element pada html.
+
+Ok langsung aja kita masuk ke materinyaa.
+Materi pada video kali ini akan kita pecah menjadi dua bagian utama yaitu 
+HTML paired tag dan HTML unpaired Tag.
+
+Ok ayo kita bahas materi yang pertama terlebih dahulu yaitu paired tag.
+
+Pokok materi Yang akan kita bahas pada materi paired tag yaitu:
+==
 -Apa itu paired tag.
 -Visualisasi paired tag.
--Praktek kode paired tag.
-
-== Unpaired Tag ==
--Apa itu unpaired tag.
--Visualisasi unpaired tag.
--Praktek kode unpaired tag.
+-kemudian kita akan Praktek kode paired tag.
+kita akan membahas tag tag penting yang perlu kita ketahui pada HTML.
 
 
 === Paired Tag ===
 == Apa itu Paired Tag? ==
-Tag HTML terbagi menjadi dua kelompok yaitu Paired Tag dan Unpaired Tag 
+pertama apa itu paired tag?
+Seperti sudah kita ketahui Tag HTML terbagi menjadi dua kelompok yaitu Paired Tag dan Unpaired Tag 
 *Paired Tag adalah Tag HTML yang memiliki pasangan, 
 Tag yang memiliki pasangan adalah ketika sebuah Tag mempunyai Tag pembuka dan Tag penutup.
 contohnya tag h1 dimana tag h1 mempunyai tag pembuka <h1>Hello world</h1> dan tag penutup
 
 == Visualisasi Paired Tag ==
-<h1>Hello World</h1>
+<h1>Hello World</h1> 
 
 == Praktek kode paired Tag ==
-html,	Setiap file HTML wajib dibungkus dengan tag HTML
 
-head, 	Tag head adalah berisi metadata.
+langsung aja kita bikin file HTML
+pertama masuk ke text editor favorite kalian
+pada playlist HTML ini saya akan menggunakan sublime text sebagai text editor
+lalu pada sublime text bisa kita lihat pada pojok kanan bawah kita bisa memilih
+berbagai macam bahasa, kali ini kita akan pilih HTML sebagai bahasanya.
 
-title,	Tag title mendefinisikan judul/title dari dokumen HTML, dan title harusnya hanya text.
+selanjutnya dipojok kiri atas kita klik file lalu pilih New file untuk membuat file baru
+kita simpan saja nama filenya sebagai index.html
+lalu simpan filenya pada folder yang kalian inginkan
+kali ini saya akan menyimpan filenya pada folder
+"belajar-HTML"
+kemudian bikin folder baru didalam belajar HTML
+yaitu folder 
+"1.HTML-paired-tag-dan-unpaired-tag"
+lalu save
 
-body, 	Tag body berisi konten dokumen HTML seperti paragraph tag P, hyperlinks tag a, image tag img
+TAG html,	
+Setiap file HTML wajib dibungkus dengan tag HTML, Tag HTML mengandung semua element dari dokumen atau biasa disebut file HTML,
+kecuali untuk tag !DOCTYPE.
+Nah ini juga penting kita perlu memberikan attribute lang pada tag HTML, 
+untuk memberi tau halaman WEB bahwa dokumen HTML kita menggunakan bahasa inggris misalnya.
+Memberikan attribute lang bertujuan untuk membantu search engine dan browser.
 
-nav,	Tag nav mendefinisikan link navigasi.
+TAG head, 	
+isi dari konten tag head adalah metadata. Metadata sendiri adalah sebuah data yang mengandung data. 
+Nah metadata pada dokumen HTML adalah data tentang document HTML tersebut. 
+Dan Metadata tidak akan ditampilkan secara visual.
 
-h1-h6, 	Tag h1-h6 mendefinisikan heading.
+TAG title,
+Tag title mendefinisikan judul atau biasa disebut title dari dokumen HTML, 
+Dan isi dari konten title harusnya hanya text.
 
-ul, 	Tag ul mendefinisikan unurdored list dimana list tidak berurutan.
+TAG body,
+ Tag body berisi konten dokumen HTML seperti tag paragraph ,tag hyperlinks atau tag a,tag img, dan berbagai macam tag lainnya yang ingin kita tampilkan pada dokumen html.
 
-ol, 	Tag ol mendefinisikan ordored list dimana list berurutan.
+TAG nav,	
+Tag nav mendefinisikan link navigasi. 
+Penting untuk diketahui tidak semua links yang ada pada dokumen html harus dibungkus dengan tag nav, 
+Tag nav bertujuan hanya untuk membungkus navigasi utama saja.
+Berikut contoh penggunaannya.
 
-li, 	Tag li mendefinisikan item dari list.
+TAG heading h1-h6, 	
+Tag heading h1 sampai heading h6 mendefinisikan heading. 
+Heading itu sendiri bisa kita presentasikan sebagai sebuah judul atau tema yang penting pada halaman web.
+Isi konten dari tag heading adalah text.
+Nah perlu diketahui hanya gunakan satu tag h1 saja per-halaman HTML, 
+Tag heading h1 akan mewakili tema seluruh halaman web, per halaman.
 
-a, 	Tag a mendefinisikan hyperlink, yang berguna untuk menglink/menghubungkan halaman/page satu ke page lainnya.
+TAG ul, 	
+Tag ul mendefinisikan unurdored list dimana list tidak berurutan.
+tag ul sendiri adalah tag parent dari tag li.
+nah kemudian ada juga tag ol.
 
-p, 	Tag P mendefinisikan paragraph.
+TAG ol, 	
+Tag ol mendefinisikan ordored list dimana list berurutan.
+sama seperti tag ul, tag ol sendiri adalah tag parent dari tag li.
 
-div, 	Tag div mendefinisikan division atau section pada document HTML secara display block.
+TAG li, 	
+Tag li mendefinisikan item dari list. 
+kita bisa menyematkan berbagai macam konten pada tag li. 
+contohnya seperti tag a hyperlink.
+Nah tag li sendiri adalah child dari tag ul ataupun tag ol.
 
-span	Tag span digunakan untuk menandai bagian dari teks, atau document.
+TAG a, 	
+Tag a mendefinisikan hyperlink, yang berguna untuk menglink atau menghubungkan halaman atau page satu ke page lainnya. berikut contoh penggunaannya.
+Tag a memerlukan attribute href="" yang mempunyai value berupa link halaman yang dituju.
 
-footer, Tag footer mendefinisikan footer dari sebuah dokumen atau section.
+TAG p, 	
+Tag P mendefinisikan paragraph. berikut contoh penggunaan tag p.
+
+TAG div, 	
+Tag div mendefinisikan division atau section pada dokumen HTML secara display block. 
+tag div akan sangat berguna ketika kita ingin memberikan style css pada halaman html nantinya. 
+materi css akan kita bahas setelah playlist html selesai pada channel ini. Konten jenis apapun dapat kita masukkan pada tag div.
+
+TAG span	
+Tag span digunakan untuk menandai bagian dari teks, atau document. 
+Mirip seperti tag div perbedaannya adalah display default dari tag span adalah inline. 
+Mungkin kalian bertanya-tanya apa itu display default sebuah tag html.
+Nah kita akan bahas apa itu display default pada playlist css setelah selesai playlist HTML ini.
+
+TAG footer, 
+Tag footer mendefinisikan footer dari sebuah dokumen atau section.
 footer biasanya berisi:
 *informasi author.
 *informasi copyright.
 *informasi contact.
+dan
 *document yang relate.
+
+
+
+
+
+
+== Unpaired Tag ==
+-Apa itu unpaired tag.
+-Visualisasi unpaired tag.
+-Praktek kode unpaired tag.
 
 
 === Unpaired Tag ===
@@ -67,7 +143,7 @@ contohnya tag <img src='../img/cat.jpg'>
 == Praktek kode Unpaired Tag ==
 <img src="cat.jpg">, 	Tag img digunakan untuk meng-embed file img didalam halaman HTML.
 br, 			Tag br memberikan single line break.
-input,
+meta
 
 == Rangkuman Belajar ==
 1.Memahami konsep dari Paired Tag pada HTML.
